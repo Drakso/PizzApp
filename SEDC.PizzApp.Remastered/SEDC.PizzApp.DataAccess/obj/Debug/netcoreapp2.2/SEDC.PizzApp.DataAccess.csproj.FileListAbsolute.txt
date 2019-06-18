@@ -1,0 +1,12 @@
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\bin\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.deps.json
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\bin\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.dll
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\bin\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.pdb
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\bin\Debug\netcoreapp2.2\SEDC.PizzApp.Domain.dll
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\bin\Debug\netcoreapp2.2\SEDC.PizzApp.Domain.pdb
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.AssemblyInfo.cs
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.csproj.CopyComplete
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.dll
+C:\Users\DraganGelevski\source\repos\SEDC.PizzApp.Remastered\SEDC.PizzApp.DataAccess\obj\Debug\netcoreapp2.2\SEDC.PizzApp.DataAccess.pdb
