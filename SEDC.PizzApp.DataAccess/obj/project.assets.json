@@ -710,11 +710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.DataAccess\\SEDC.PizzApp.DataAccess.csproj",
+      "projectUniqueName": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.DataAccess\\SEDC.PizzApp.DataAccess.csproj",
       "projectName": "SEDC.PizzApp.DataAccess",
-      "projectPath": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.DataAccess\\SEDC.PizzApp.DataAccess.csproj",
+      "projectPath": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.DataAccess\\SEDC.PizzApp.DataAccess.csproj",
       "packagesPath": "C:\\Users\\DraganGelevski\\.nuget\\packages\\",
-      "outputPath": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.DataAccess\\obj\\",
+      "outputPath": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -734,8 +734,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj": {
-              "projectPath": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj"
+            "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj": {
+              "projectPath": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj"
             }
           }
         }

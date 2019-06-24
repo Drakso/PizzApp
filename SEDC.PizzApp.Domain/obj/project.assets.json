@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj",
+      "projectUniqueName": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj",
       "projectName": "SEDC.PizzApp.Domain",
-      "projectPath": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj",
+      "projectPath": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.Domain\\SEDC.PizzApp.Domain.csproj",
       "packagesPath": "C:\\Users\\DraganGelevski\\.nuget\\packages\\",
-      "outputPath": "C:\\Dragan\\Drakso\\MVC\\sedc7-08-aspnetmvc\\g5\\SEDC.PizzApp.Reworked\\SEDC.PizzApp.Domain\\obj\\",
+      "outputPath": "C:\\Dragan\\Drakso\\MVC\\PizzApp\\SEDC.PizzApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
