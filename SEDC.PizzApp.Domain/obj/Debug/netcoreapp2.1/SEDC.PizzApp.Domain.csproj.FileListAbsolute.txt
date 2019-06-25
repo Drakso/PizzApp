@@ -16,3 +16,11 @@ C:\Dragan\Drakso\MVC\sedc7-08-aspnetmvc\g5\SEDC.PizzApp.Reworked\SEDC.PizzApp.Do
 C:\Dragan\Drakso\MVC\sedc7-08-aspnetmvc\g5\SEDC.PizzApp.Reworked\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.AssemblyInfo.cs
 C:\Dragan\Drakso\MVC\sedc7-08-aspnetmvc\g5\SEDC.PizzApp.Reworked\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.dll
 C:\Dragan\Drakso\MVC\sedc7-08-aspnetmvc\g5\SEDC.PizzApp.Reworked\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.pdb
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\bin\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.deps.json
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\bin\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.dll
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\bin\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.pdb
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.csproj.CoreCompileInputs.cache
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.AssemblyInfoInputs.cache
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.AssemblyInfo.cs
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.dll
+C:\Dragan\Drakso\MVC\PizzApp\SEDC.PizzApp.Domain\obj\Debug\netcoreapp2.1\SEDC.PizzApp.Domain.pdb

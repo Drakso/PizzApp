@@ -42,14 +42,14 @@ namespace SEDC.PizzApp.Services.Services
             // We get all orders
             List<Order> orders = _orderRepository.GetAll();
             // Flattening ( all pizzas from all orders )
-            List<Pizza> pizzas = orders
-                .SelectMany(x => x.Pizzas)
+            List<PizzaOrder> pizzas = orders
+                .SelectMany(x => x.PizzaOrders)
                 .ToList();
             string mostPopularPizza = pizzas
-                .GroupBy(x => x.Name) // We group it by name ( 2 peperoni, 3 kapri, 1 margarita, 1 siciliana )
+                .GroupBy(x => x.Pizza.Name) // We group it by name ( 2 peperoni, 3 kapri, 1 margarita, 1 siciliana )
                 .OrderByDescending(x => x.Count()) // Order them by  descending so that the first is the one that has the most pizzas ( 3 kapri, 2 peperoni, 1 margarita, 1 siciliana )
                 .FirstOrDefault() // Takes the first from the group ( 3 kapri pizzas )
-                .Select(x => x.Name) // Select only the names ( Kapri, Kapri, Kapri )
+                .Select(x => x.Pizza.Name) // Select only the names ( Kapri, Kapri, Kapri )
                 .FirstOrDefault(); // Select the first ( Kapri )
             return mostPopularPizza;
         }

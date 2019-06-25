@@ -141,19 +141,25 @@ namespace SEDC.PizzApp.DataAccess
                 {
                     Id = 1,
                     User = Users[0],
-                    Pizzas = new List<Pizza>(){ Menu[0] }
+                    PizzaOrders = new List<PizzaOrder>(){
+                        new PizzaOrder(){ Pizza = Menu[0] } }
                 },
                 new Order()
                 {
                     Id = 2,
                     User = Users[0],
-                    Pizzas = new List<Pizza>(){ Menu[1], Menu[3], Menu[5] }
+                    PizzaOrders = new List<PizzaOrder>(){
+                        new PizzaOrder(){ Pizza = Menu[1] },
+                        new PizzaOrder(){ Pizza = Menu[2] },
+                        new PizzaOrder(){ Pizza = Menu[4] }}
                 },
                 new Order()
                 {
                     Id = 3,
                     User = Users[1],
-                    Pizzas = new List<Pizza>(){ Menu[1], Menu[8] }
+                    PizzaOrders = new List<PizzaOrder>(){
+                        new PizzaOrder(){ Pizza = Menu[1] },
+                        new PizzaOrder(){ Pizza = Menu[8] } }
                 }
             };
             Feedbacks = new List<Feedback>();

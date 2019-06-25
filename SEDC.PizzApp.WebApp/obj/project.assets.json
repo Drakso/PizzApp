@@ -4620,6 +4620,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
           "SEDC.PizzApp.Domain": "1.0.0"
         },
         "compile": {
@@ -4643,7 +4646,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "2.1.0",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
+          "Microsoft.Extensions.DependencyInjection": "2.1.1",
           "SEDC.PizzApp.DataAccess": "1.0.0",
           "SEDC.PizzApp.Domain": "1.0.0"
         },

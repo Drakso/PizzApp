@@ -29,15 +29,15 @@ namespace SEDC.PizzApp.WebApp.Controllers
             foreach (Order order in orders)
             {
                 List<PizzaViewModel> pizzasView = new List<PizzaViewModel>();
-                foreach (var pizza in order.Pizzas)
+                foreach (var pizzaOrder in order.PizzaOrders)
                 {
                     pizzasView.Add(new PizzaViewModel()
                     {
-                        Id = pizza.Id,
-                        Image = pizza.Image,
-                        Name = pizza.Name,
-                        Price = pizza.Price,
-                        Size = pizza.Size
+                        Id = pizzaOrder.Pizza.Id,
+                        Image = pizzaOrder.Pizza.Image,
+                        Name = pizzaOrder.Pizza.Name,
+                        Price = pizzaOrder.Pizza.Price,
+                        Size = pizzaOrder.Pizza.Size
                     });
                 };
                 viewOrders.Add(new OrderItemViewModel()
@@ -51,7 +51,7 @@ namespace SEDC.PizzApp.WebApp.Controllers
             }
             OrdersViewModel model = new OrdersViewModel()
             {
-                LastPizza = _pizzaOrderService.GetLastOrder().Pizzas[0].Name,
+                LastPizza = _pizzaOrderService.GetLastOrder().PizzaOrders[0].Pizza.Name,
                 MostPopularPizza = _pizzaOrderService.GetMostPopularPizza(),
                 NameOfFirstCustomer = _userService.GetLastUserName(),
                 OrderCount = _pizzaOrderService.GetOrderCount(),
@@ -77,10 +77,17 @@ namespace SEDC.PizzApp.WebApp.Controllers
         [HttpPost("Order")]
         public IActionResult Order(OrderViewModel model)
         {
-            List<Pizza> pizzas = new List<Pizza>();
+            Order order = new Order();
+            List<PizzaOrder> pizzas = new List<PizzaOrder>();
             foreach (PizzaViewModel pizzaViewModel in model.Pizzas)
             {
-                pizzas.Add(_pizzaOrderService.GetPizzaFromMenu(pizzaViewModel.Name, pizzaViewModel.Size));
+                PizzaOrder pizzaOrder = new PizzaOrder()
+                {
+                    Pizza = _pizzaOrderService.GetPizzaFromMenu(pizzaViewModel.Name, pizzaViewModel.Size),
+                    Order = order
+                };
+                pizzaOrder.PizzaId = pizzaOrder.Pizza.Id;
+                pizzas.Add(pizzaOrder);
             }
             User user = new User()
             {
@@ -89,11 +96,8 @@ namespace SEDC.PizzApp.WebApp.Controllers
                 LastName = model.LastName,
                 Phone = model.Phone
             };
-            Order order = new Order()
-            {
-                Pizzas = pizzas,
-                User = user
-            };
+            order.PizzaOrders = pizzas;
+            order.User = user;
             _pizzaOrderService.MakeNewOrder(order);
             return View("_ThankYou");
         }
@@ -102,14 +106,14 @@ namespace SEDC.PizzApp.WebApp.Controllers
             Order order = _pizzaOrderService.GetOrderById(id);
             if (order == null) return View("_Error");
             List<PizzaViewModel> pizzas = new List<PizzaViewModel>();
-            foreach (Pizza pizza in order.Pizzas)
+            foreach (PizzaOrder pizzaOrder in order.PizzaOrders)
             {
                 pizzas.Add(new PizzaViewModel()
                 {
-                    Image = pizza.Image,
-                    Name = pizza.Name,
-                    Price = pizza.Price,
-                    Size = pizza.Size
+                    Image = pizzaOrder.Pizza.Image,
+                    Name = pizzaOrder.Pizza.Name,
+                    Price = pizzaOrder.Pizza.Price,
+                    Size = pizzaOrder.Pizza.Size
                 });
             }
             if (order == null) return View("_Error");
